@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторая работа №5</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="grid-container">
+        <!-- Header -->
+        <header class="header">
+            <div class="user-profile">
+                <img src="images/Ava.svg" alt="Перминов Степан Сергеевич" class="avatar-full">
+            </div>
+
+            <nav class="top-nav">
+                <a href="#" class="nav-link active">Дом</a>
+                <a href="#" class="nav-link">Команда</a>
+                <a href="#" class="nav-link">Особенность</a>
+                <a href="#" class="nav-link">Блог</a>
+                <a href="#" class="nav-link">Контакт</a>
+            </nav>
+
+            <button class="register-btn">Зарегистрироваться</button>
+        </header>
+
+        <!-- Sidebar Navigation (Dark Theme) -->
+        <nav class="sidebar">
+            <div class="sidebar-profile">
+                <img src="images/Ava.svg" alt="Перминов Степан Сергеевич" class="avatar-full">
+            </div>
+
+            <div class="sidebar-divider"></div>
+
+            <div class="sidebar-menu">
+                <div class="sidebar-item">
+                    <span class="icon">⊞</span>
+                    <span>Панель инструментов</span>
+                </div>
+
+                <div class="sidebar-item">
+                    <span class="icon">📈</span>
+                    <span>Понимание</span>
+                </div>
+
+                <div class="sidebar-item">
+                    <span class="icon">📑</span>
+                    <span>Люди и термины</span>
+                </div>
+
+                <div class="sidebar-item">
+                    <span class="icon">📦</span>
+                    <span>Продукт</span>
+                </div>
+
+                <div class="sidebar-item">
+                    <span class="icon">✉️</span>
+                    <span>Входящие</span>
+                </div>
+
+                <div class="sidebar-item">
+                    <span class="icon">↺</span>
+                    <span>Возвраты</span>
+                </div>
+
+                <div class="sidebar-item">
+                    <span class="icon">👤</span>
+                    <span>Профиль</span>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="dashboard">
+                <h1>Добро пожаловать, Степан!</h1>
+                <p class="subtitle">Ваш новый дашборд готов к работе.</p>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <h3>Активность</h3>
+                        <p class="stat-value">89%</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer (Light Green Contact Theme) -->
+        <footer class="footer">
+            <div class="footer-content">
+                <!-- Left Column: Contact Info -->
+                <div class="footer-left">
+                    <div class="footer-profile">
+                        <!-- Use Ava.svg with full class, no separate text -->
+                        <img src="images/Ava.svg" alt="Перминов Степан Сергеевич" class="avatar-full">
+                    </div>
+
+                    <div class="contact-list">
+                        <div class="contact-item">
+                            <span class="contact-icon">📞</span>
+                            <div class="contact-detail">
+                                <span class="label">Тел.</span>
+                                <span class="value">180-548-2588</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">✉️</span>
+                            <div class="contact-detail">
+                                <span class="label">Почта</span>
+                                <span class="value">info@example.com</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <div class="contact-detail">
+                                <span class="label">Адрес</span>
+                                <span class="value">123 Главная улица Город, Страна</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📠</span>
+                            <div class="contact-detail">
+                                <span class="label">Факс</span>
+                                <span class="value">+1-548-2588</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-section">
+                        <h3>Социальные сети</h3>
+                        <p>Подпишитесь на нас, чтобы быть в курсе последних обновлений и эксклюзивных предложений!</p>
+                        <div class="social-icons">
+                            <span class="social-icon">in</span>
+                            <span class="social-icon">▶</span>
+                            <span class="social-icon">📷</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column: Contact Form -->
+                <div class="footer-right">
+                    <h3>Связаться с нами</h3>
+                    <p class="response-time">Обычно мы отвечаем в течение 24 часов.</p>
+                    <form class="contact-form">
+                        <input type="text" placeholder="Имя" class="form-input">
+                        <input type="email" placeholder="Электронная почта" class="form-input">
+                        <textarea placeholder="Сообщение" class="form-textarea"></textarea>
+                        <button type="submit" class="submit-btn">Представлять на рассмотрение</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer-bottom-bar">
+                <div class="footer-links">
+                    <a href="#">Условия обслуживания</a>
+                    <a href="#">политика конфиденциальности</a>
+                    <a href="#">Безопасность</a>
+                </div>
+                <div class="copyright">
+                    &copy; Все права защищены.
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
